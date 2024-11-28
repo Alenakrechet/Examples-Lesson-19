@@ -1,0 +1,180 @@
+/*  1. Descendant Selector (Space)
+.parent p {
+  color: red;
+}
+*/
+
+/* 2. Child Selector (>)
+.parentlist > li {
+  color: red;
+}
+*/
+/* 3. Adjacent Sibling Selector (+)
+h1 + p {
+  color: blue;
+}
+*/
+/*4. General Sibling Selector (~)
+h1 ~ p {
+  font-style: italic;
+}
+*/
+/*1. :hover
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+*/
+/*2. :focus
+input {
+  font-size: 40px;
+}
+input:focus {
+  border: 2px solid red;
+  outline: none;
+}
+*/
+/*3. :visited
+a {
+  font-size: 70px;
+}
+a:visited {
+  color: #ed2fce;
+}
+*/
+/*4. :nth-child()
+li:nth-child(2/even/odd/) {
+  background-color: yellow;
+}
+*/
+/*5. :first-child & :last-child
+p {
+  font-size: 40px;
+}
+p:first-child {
+  font-size: 25px;
+  font-weight: bold;
+  color: red;
+}
+*/
+/*6. :not()
+button {
+  font-size: 40px;
+}
+button:not(.active) {
+  background-color: lightgray;
+  color: darkgray;
+}
+p {
+  font-size: 40px;
+}
+p:not(.special_text) {
+  color: brown;
+}
+*/
+/*1. ::first-line
+p{
+font-size: 25px;
+}
+p::first-line {
+  font-weight: bold;
+  color: blue;
+}
+  */
+/*2. ::first-letter
+p {
+  font-size: 40px;
+}
+p::first-letter {
+  font-size: 2em;
+  color: red;
+}
+*/
+/*3. ::before & 4. ::after
+div {
+  font-size: 30px;
+}
+div::before {
+  content: "🐷🐭🦨Note: ";
+  font-weight: bold;
+  color: brown;
+}
+div::after {
+  content: " (End of this div)";
+  font-style: italic;
+}
+*/
+/*5. ::selection
+p {
+  font-size: 40px;
+}
+.effect::selection {
+  background-color: yellow;
+  color: black;
+}
+*/
+/*1. Exact Match
+input {
+  font-size: 50px;
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+input[type="text"] {
+  border: 5px solid blue;
+}
+*/
+/*2. Contains Substring
+a {
+  font-size: 50px;
+  display: block;
+}
+a[href*="example"] {
+  color: green;
+}
+*/
+/*3. Starts With
+img {
+  height: 400px;
+  width: auto;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+img[src^="img/"] {
+  border: 10px solid red;
+}
+img[src^="photo1"] {
+  border: 10px solid green;
+}
+*/
+/* 4.Ends With
+a {
+  font-size: 50px;
+  display: block;
+}
+a[href$=".pdf"] {
+  color: red;
+}
+  */
+/* 5.Contains Word
+div {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+div[class~="highlight"] {
+  background-color: yellow;
+}
+*/
+/*6. Exists
+a {
+  font-size: 45px;
+  display: block;
+}
+a[href] {
+  font-weight: bold;
+  color: rgb(223, 13, 153);
+}
+*/
